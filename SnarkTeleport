@@ -1,0 +1,8 @@
+alias snark "weapon_snark"
+alias gauss "weapon_gauss"
+alias SnarkTeleport "snark; wait 1; +attack2; wait 1; gauss"
+
+Example
+bind Key SnarkGauss
+Or
+bind Key "weapon_snark; wait 1; +attack2; wait 1; weapon_gauss"
