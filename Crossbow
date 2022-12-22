@@ -1,0 +1,5 @@
+alias gauss "weapon_gauss"
+alias crossbow "weapon_crossbow"
+alias shot "crossbow; +attack2; +attack1; gauss"
+
+bind "Key" "shot"
